@@ -1,0 +1,45 @@
+{
+  "type": "crawl",
+  "name": "sprinklersukwi",
+  "description": "fuckyou",
+  "health": 2100,
+  "armor": 14,
+  "drawCell": false,
+  "outlines": false,
+  "hitSize": 14,
+  "squareShape": false,
+  "segments": 5,
+  "omniMovement": false,
+  "rotateSpeed": 0.78,
+  "drawBody": false,
+  "hidden": false,
+  "crushDamage": 2,
+  "targetAir": false,
+  "segmentScl": 14,
+  "segmentPhase": 14,
+  "speed": 1.4,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 5,
+      "reload": 6,
+      "mirror": false,
+      "rotate": true,
+      "name": "go",
+      "shootSound": "sap",
+      "inaccuracy": 10,
+      "shoot": {
+        "shots": 10,
+        "shotDelay": 0
+      },
+      "bullet": {
+        "type": "LiquidBulletType",
+        "liquid": "sukwi_spit",
+        "speed": 3,
+        "lifetime": 60,
+        "damage": 20,
+        "pierce": true,
+      }
+    }
+  ],
+} 

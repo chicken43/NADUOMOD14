@@ -1,0 +1,36 @@
+{
+  "name": "sukwi drill",
+  "description": "A fuckyou.",
+  "type": "Drill",
+  "size": 2,
+  "liquidCapacity": 300,
+  "tier": 4,
+  "drillTime": 400,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.05,
+      "optional": true,
+      "booster": true
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 50
+    },
+    {
+      "item": "silicon",
+      "amount": 50
+    },
+    {
+      "item": "lead",
+      "amount": 50
+    },
+    {
+      "item": "sukwi_steel",
+      "amount": 20
+    }
+  ],
+  "category": "production",
+}

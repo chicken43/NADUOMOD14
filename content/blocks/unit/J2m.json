@@ -1,0 +1,33 @@
+{
+  "type": "Reconstructor",
+  "name": "j2m",
+  "description": "use poor go tech",
+  "health": 800,
+  "size": 3,
+  "constructTime": 14000,
+  "repairSpeed": 1.2,
+  "upgrades": [
+    ["B_jungmu1", "B_jungmu2"],
+    ["L_jungmu1", "L_jungmu2"],
+    ["F_jungmu1", "F_jungmu2"],
+    ["N_jungmu1", "N_jungmu2"],
+    ["H_jungmu1", "H_jungmu2"]
+  ],
+  "consumes": {
+    "power": 80,
+    "items": [
+      "silicon/150",
+      "lead/50",
+      "graphite/40",
+    ]
+  },
+  "requirements": [
+    "silicon/150",
+    "titanium/50",
+    "copper/200",
+    "lead/200",
+    "graphite/130",
+
+  ],
+  "category": "units",
+}

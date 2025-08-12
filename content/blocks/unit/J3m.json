@@ -1,0 +1,32 @@
+{
+  "type": "Reconstructor",
+  "name": "j2m",
+  "description": "use gotech.",
+  "health": 1500,
+  "size": 5,
+  "constructTime": 4000,
+  "upgrades": [
+    ["B_jungmu2", "B_jungmu3"],
+    ["L_jungmu2", "L_jungmu3"],
+    ["F_jungmu2", "F_jungmu3"],
+    ["N_jungmu2", "N_jungmu3"],
+    ["H_jungmu2", "H_jungmu3"]
+  ],
+  "consumes": {
+    "power": 120,
+    "items": [
+      "silicon/150",
+      "sukwi_iron/50",
+      "graphite/40",
+    ]
+  },
+  "requirements": [
+    "copper/200",
+    "silicon/200",
+    "titanium/100",
+    "lead/320",
+    "sukwi_steel/120",
+    "schrom/50",
+  ],
+  "category": "units",
+}
