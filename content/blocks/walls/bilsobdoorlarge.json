@@ -1,0 +1,18 @@
+{
+  "type": "door",
+  "name": "큰문짝",
+  "description": "큰문짝.",
+  "size": 3,
+  "health": 1200,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 96
+    },
+    {
+      "item": "silicon",
+      "amount": 64
+    }
+  ],
+  "category": "defense",
+}
