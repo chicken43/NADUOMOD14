@@ -1,0 +1,15 @@
+{
+  "type": "door",
+  "name": "작은문짝",
+  "description": "ㅈㄱㄴ",
+  "size": 1,
+  "health": 120,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 16
+    },
+  ],
+  "category": "defense",
+
+}
