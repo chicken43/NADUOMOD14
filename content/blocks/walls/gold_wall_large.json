@@ -1,0 +1,11 @@
+{
+  "type": "Wall",
+  "name": "gold wall large",
+  "description": "돈지랄 ㅗ.",
+  "size": 2,
+  "health": 480,
+  "category": "defense",
+  "requirements": [
+    "shum/144"  
+  ]
+}
