@@ -1,0 +1,11 @@
+{
+  "type": "Wall",
+  "name": "gold wall",
+  "description": "엄청난 고지능이네요",
+  "size": 1,
+  "health": 120,
+  "category": "defense",
+  "requirements": [
+    "sukwi_gold/36"  
+  ]
+}
