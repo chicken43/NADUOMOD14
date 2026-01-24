@@ -1,0 +1,16 @@
+{
+  "name": "go_router",
+  "description": "bilsob's",
+  "type": "Router",
+  "dumpTime": 1,
+  "speed": 0.02,
+  "health": 75,
+  "itemCapacity": 2000,
+  "size": 6
+  "requirements": [
+    {"item": "copper", "amount": 50},
+    {"item": "sukwi_iron", "amount": 20}
+  ],
+  "category": "distribution",
+  "research": "gotech_distribution",
+}
