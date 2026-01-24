@@ -1,0 +1,15 @@
+{
+  "type": "StackConveyor",
+  "name": "bilsob conveyor",
+  "description": "ㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗㅗ",
+  "details": "고지성은 사용불가ㅗ",
+  "category": "distribution",
+  "requirements": [
+    "graphite/1",
+    "silicon/1",
+    "sukwi_steel/1"
+  ],
+  "health": 30,
+  "speed": 1,
+  "itemCapacity": 10,
+}
