@@ -1,0 +1,18 @@
+{
+  "type": "LiquidRouter",
+  "name": "bilsob liquid router",
+  "description": "파이프 분배기.",
+  "health": 20,
+  "liquidCapacity": 200,
+  "requirements": [
+    {
+      "item": "metaglass",
+      "amount": 2
+    },
+    {
+      "item": "copper",
+      "amount": 3
+    },
+  ],
+  "category": "liquid",
+}
