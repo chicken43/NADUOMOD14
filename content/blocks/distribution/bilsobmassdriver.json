@@ -1,28 +1,19 @@
 {
   "type": "MassDriver",
-  "name": "just bilsob mass driver",
+  "name": "Just Bilsob Mass Driver",
+  "description": "고효율을 중시해 설계된 소형 매스 드라이버",
   "health": 160,
-  "description": "고효율을 중시해 설계",
-  "itemCapacity": 1,
+  "size": 1,
+  "itemCapacity": 10,
   "reload": 1,
   "range": 120,
-  "size": 1,
   "consumes": {
     "power": 1
   },
   "requirements": [
-    {
-      "item": "copper",
-      "amount": 75
-    },
-    {
-      "item": "sukwi_iron",
-      "amount": 20
-    },
-    {
-      "item": "graphite",
-      "amount": 25
-    }
+    { "item": "copper", "amount": 75 },
+    { "item": "sukwi_iron", "amount": 20 },
+    { "item": "graphite", "amount": 25 }
   ],
-  "category": "distribution",
+  "category": "distribution"
 }
