@@ -70,6 +70,38 @@
       }
     },
       {
+      "type": "PointDefenseWeapon",
+      "name": "gozubamachine",
+      "x": 5,
+      "y": -2,
+      "mirror": true,
+      "reload": 1,
+      "targetInterval": 1,
+      "targetSwitchInterval": 8,
+      "bullet": {
+        "shootEffect": "sparkShoot",
+        "hitEffect": "pointHit",
+        "maxRange": 240,
+        "damage": 30
+      }
+    },
+      {
+      "type": "PointDefenseWeapon",
+      "name": "gozubamachine",
+      "x": 5,
+      "y": 2,
+      "mirror": true,
+      "reload": 1,
+      "targetInterval": 1,
+      "targetSwitchInterval": 8,
+      "bullet": {
+        "shootEffect": "sparkShoot",
+        "hitEffect": "pointHit",
+        "maxRange": 240,
+        "damage": 30
+      }
+    },
+      {
       "name": "none",
       "recoil": 0.5,
       "shootSound": "missileLaunch",
