@@ -7,13 +7,14 @@
   "hasPower": true,
   "hasItems": true,
   "hasLiquids": true, 
+  "itemCapacity": 60,
   "craftTime": 50,
   "craftEffect": "smeltsmoke",
   "updateEffect": "smeltsmoke",
   "consumes": {
     "power": 1.4,
     "items": [
-      "sukwi_iron/12" 
+      "sukwi_iron/8" 
     ],
     "liquid": "sukwiacid/0.6"
   },
@@ -24,7 +25,7 @@
     { "item": "sukwi_steel", "amount": 70 }
   ],
   "category": "crafting",
-  "outputItem": "sukwi_steel/8", 
+  "outputItem": "sukwi_steel/6", 
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
