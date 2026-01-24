@@ -14,6 +14,7 @@
       "reload": 1,
       "shootOnDeath": true,
       "shake": 1,
+      "inaccuracy": 30,
       "shoot": {
         "shots": 3,
         "shotDelay": 0,
