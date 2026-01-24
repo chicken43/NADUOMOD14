@@ -35,44 +35,6 @@
       }
     },
       {
-      "x": 2,
-      "name": "nothing"
-      "y": -1,
-      "reload": 18,
-      "mirror": true,
-      "rotate": true,
-      "shoot": {
-        "shots": 2,
-        "shotDelay": 2
-      },
-      "bullet": {
-        "type": "BasicBulletType",
-        "width": 6,
-        "height": 10,
-        "speed": 3,
-        "lifetime": 40,
-        "damage": 8,
-        "pierce": false,
-        "buildingDamageMultiplier": 2.8
-      }
-    },
-      {
-      "type": "PointDefenseWeapon",
-      "name": "gozubamachine",
-      "x": 5,
-      "y": -2,
-      "mirror": true,
-      "reload": 1,
-      "targetInterval": 1,
-      "targetSwitchInterval": 8,
-      "bullet": {
-        "shootEffect": "sparkShoot",
-        "hitEffect": "pointHit",
-        "maxRange": 240,
-        "damage": 30
-      }
-    },
-      {
       "name": "jungmugun",
       "reload": 9,
       "x": 4,
