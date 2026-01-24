@@ -1,0 +1,13 @@
+{
+  "type": "ItemBridge",
+  "name": "bilsob bridge conveyor",
+  "description": "ㅈㄱㄴ",
+  "health": 50,
+  "requirements": [
+    "copper/6",
+    "lead/6",
+  ],
+  "range": 6,
+  "transportTime": 1,
+  "category": "distribution",
+}
