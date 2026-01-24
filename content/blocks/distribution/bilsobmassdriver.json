@@ -1,0 +1,28 @@
+{
+  "type": "MassDriver",
+  "name": "just bilsob mass driver",
+  "health": 160,
+  "description": "고효율을 중시해 설계",
+  "itemCapacity": 1,
+  "reload": 1,
+  "range": 120,
+  "size": 1,
+  "consumes": {
+    "power": 1
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 75
+    },
+    {
+      "item": "sukwi_iron",
+      "amount": 20
+    },
+    {
+      "item": "graphite,
+      "amount": 25
+    }
+  ],
+  "category": "distribution",
+}
