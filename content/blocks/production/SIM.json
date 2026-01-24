@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "name": "sukwi iron melter",
+  "description": "ㅈㄴㄱ",
+  "size": 3,
+  "health": 285,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true, 
+  "craftTime": 50,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 1.4,
+    "items": [
+      "sukwi_iron/12" 
+    ],
+    "liquid": "sukwiacid/0.6"
+  },
+  "requirements": [
+    { "item": "copper", "amount": 460 },
+    { "item": "lead", "amount": 320 },
+    { "item": "shum", "amount": 35 },
+    { "item": "sukwi-steel", "amount": 70 }
+  ],
+  "category": "crafting",
+  "outputItem": "sukwi_steel/8", 
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      { "type": "DrawDefault" },
+      {
+        "type": "DrawCrucibleFlame",
+        "flameColor": "61615b",
+        "midColor": "313131"
+      }
+    ]
+  }
+}
