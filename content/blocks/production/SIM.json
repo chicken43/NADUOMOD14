@@ -21,7 +21,7 @@
     { "item": "copper", "amount": 460 },
     { "item": "lead", "amount": 320 },
     { "item": "shum", "amount": 35 },
-    { "item": "sukwi-steel", "amount": 70 }
+    { "item": "sukwi_steel", "amount": 70 }
   ],
   "category": "crafting",
   "outputItem": "sukwi_steel/8", 
