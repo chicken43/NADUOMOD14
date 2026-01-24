@@ -4,7 +4,7 @@
   "description": "It's a siege mortar that's easy to make and causes massive area damage, but has a painfully slow firing rate and projectile speed.",
   "health": 500,
   "reload": 480,
-  "range": 200,
+  "range": 1200,
   "size": 4,
   "consumes": { 
     "coolant": { 
@@ -22,7 +22,7 @@
       "height": 40,
       "splashdamage": 500,
       "splashDamageRadius": 20,
-      "lifetime": 50,
+      "lifetime": 1200,
       "speed": 1.2,
       "hitSize": 8,
       "ammoMultiplier": 1,
