@@ -1,50 +1,34 @@
 {
   "type": "GenericCrafter",
-  "name": "plastic compreessor",
-  "description": "fuck.",
+  "name": "plastic compressor",
+  "description": "ㅈㄱㄴ",
   "size": 3,
   "health": 285,
   "hasPower": true,
   "hasItems": true,
-  "hasLiquids": false,
+  "hasLiquids": true, 
   "craftTime": 50,
   "craftEffect": "smeltsmoke",
   "updateEffect": "smeltsmoke",
   "consumes": {
     "power": 1.4,
-    "items": {
-      "items": [
-        "sukwi_iron/2"
-      ]
-    },
+    "items": [
+      "sukwi_iron/2" 
+    ],
     "liquid": "oil/0.6"
   },
   "requirements": [
-    {
-      "item": "copper",
-      "amount": 460
-    },
-    {
-      "item": "lead",
-      "amount": 320
-    },
-    {
-      "item": "titanium",
-      "amount": 145
-    },
-    {
-      "item": "sukwi_steel",
-      "amount": 70
-    }
+    { "item": "copper", "amount": 460 },
+    { "item": "lead", "amount": 320 },
+    { "item": "titanium", "amount": 145 },
+    { "item": "sukwi-steel", "amount": 70 }
   ],
   "category": "crafting",
-  "outputitem": "sukwi plastic",
+  "outputItem": "sukwi_plastic/1", 
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
-      {
-        "type": "DrawDefault" 
-      },
+      { "type": "DrawDefault" },
       {
         "type": "DrawCrucibleFlame",
         "flameColor": "61615b",
