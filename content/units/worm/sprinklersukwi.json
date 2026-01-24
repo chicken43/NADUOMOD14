@@ -34,7 +34,7 @@
       },
       "bullet": {
         "type": "LiquidBulletType",
-        "liquid": "sukwi_spit",
+        "liquid": "sukwispit",
         "speed": 3,
         "lifetime": 60,
         "damage": 20,
