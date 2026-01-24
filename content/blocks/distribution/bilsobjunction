@@ -1,0 +1,13 @@
+{
+  "name": "bilsob junction",
+  "description": "교차기.",
+  "type": "Junction",
+  "speed": 2,
+  "health": 35,
+  "size": 1,
+  "requirements": [
+    {"item": "copper", "amount": 6},
+    {"item": "lead", "amount": 4}
+  ],
+  "category": "distribution",
+}
